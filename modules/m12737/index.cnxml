@@ -1,0 +1,200 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>CSLS Workshop on Optimization of Eigenvalues</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>fd230391-23b8-4e33-bd7e-5bc081480966</md:uuid>
+</metadata>
+
+  <content>
+
+    <section id="overview">
+      <title>
+        Workshop Overview
+      </title>
+
+      <para id="abstract">
+
+        A wealth of interesting problems in engineering, control, finance, and
+        statistics can be formulated as optimization problems involving the
+        eigenvalues of a matrix function. These very challenging problems
+        cannot usually be solved via traditional techniques for nonlinear
+        optimization. However, they have been addressed in recent years by a
+        combination of deep, elegant mathematical analysis and ingenious
+        algorithmic and software development. In this workshop, three leading
+        experts will discuss applications along with the theoretical and
+        algorithmic aspects of this fascinating topic.
+
+      </para>
+
+      <list id="talks">
+
+        <item>
+          Go to the talk on
+          <link target-id="boyd_title">
+            Semidefinite Programming</link>
+          (by Prof. Stephen Boyd)
+        </item>
+      
+        <item>
+          Go to the talk on
+          <link target-id="lewis_title">
+            Eigenvalue Optimization:
+            Symmetric versus Nonsymmetric Matrices</link>
+          (by Prof. Adrian Lewis)
+        </item>
+  
+        <item>
+          Go to the talk on
+          <link target-id="overton_title">
+            Local Optimization of Stability Functions
+            in Theory and Practice</link>
+            (by Prof. Michael Overton)
+        </item>
+
+      </list>
+
+      <para id="remark">
+        Remark: This workshop was held on October 7, 2004 as part of the
+        <link document="col10277">
+          Computational Sciences Lecture Series (CSLS)</link>
+        at the University of Wisconsin-Madison.
+      </para>
+    </section>
+
+    <section id="boyd_title">
+
+      <title>
+        Semidefinite Programming
+      </title>
+
+      <para id="boyd_affiliation">
+        By
+        <link url="http://www.stanford.edu/%7Eboyd/">
+          Prof. Stephen Boyd</link>
+          (Stanford University,
+           USA)
+      </para>
+
+      <para id="boyd_media">
+
+        <link resource="boyd_csls_041007.pdf">
+          Slides of talk [PDF]</link> (Not yet available.)
+        |
+        <link url="mms://www.cae.wisc.edu/video/ece/CSLS/CSLS7.wmv">
+          Video [WMV]</link> (Not yet available.)
+      </para>
+
+      <para id="boyd_abstract">
+
+        ABSTRACT: In semidefinite programming (SDP) a linear function is
+        minimized subject to the constraint that the eigenvalues of a
+        symmetric matrix are nonnegative. While such problems were studied in
+        a few papers in the 1970s, the relatively recent development of
+        efficient interior-point algorithms for SDP has spurred research in a
+        wide variety of application fields, including control system analysis
+        and synthesis, combinatorial optimization, circuit design, structural
+        optimization, finance, and statistics. In this overview talk I will
+        cover the basic properties of SDP, survey some applications, and give
+        a brief description of interior-point methods for their solution.
+
+      </para>
+
+    </section>
+
+    <section id="lewis_title">
+
+      <title>
+        Eigenvalue Optimization: Symmetric versus Nonsymmetric Matrices
+      </title>
+
+      <para id="lewis_affiliation">
+        By
+        <link url="http://www.orie.cornell.edu/%7Easlewis/">
+          Prof. Adrian Lewis</link>
+        (Cornell University,
+         USA)
+      </para>
+
+      <para id="lewis_media">
+
+        <link resource="lewis_csls_041007.pdf">
+          Slides of talk [PDF]</link> (Not yet available.)
+        |
+        <link url="mms://www.cae.wisc.edu/video/ece/CSLS/CSLS8.wmv">
+          Video [WMV]</link> (Not yet available.)
+
+      </para>
+
+      <para id="lewis_abstract">   
+
+        ABSTRACT: The eigenvalues of a symmetric matrix are Lipschitz
+        functions with elegant convexity properties, amenable to efficient
+        interior-point optimization algorithms. By contrast, for example, the
+        spectral radius of a nonsymmetric matrix is neither a convex function,
+        nor Lipschitz. It may indicate practical behaviour much less reliably
+        than in the symmetric case, and is more challenging for numerical
+        optimization (see Overton's talk). Nonetheless, this function does
+        share several significant variational-analytic properties with its
+        symmetric counterpart. I will outline these analogies, discuss the
+        fundamental idea of Clarke regularity, highlight its usefulness in
+        nonsmooth chain rules, and discuss robust regularizations of functions
+        like the spectral radius. (Including joint work with James Burke and
+        Michael Overton.)
+
+      </para>
+
+    </section>
+
+    <section id="overton_title">
+
+      <title>
+        Local Optimization of Stability Functions in Theory and Practice
+      </title>
+
+      <para id="overton_affiliation">
+        By
+        <link url="http://www.cs.nyu.edu/cs/faculty/overton/">
+          Prof. Michael Overton</link>
+        (Courant Institute of Mathematical Sciences
+         New York University,
+         USA)
+      </para>
+
+      <para id="overton_media">
+
+        <link resource="overton_csls_041007.pdf">
+          Slides of talk [PDF]</link> (Not yet available.)
+        |
+        <link url="mms://www.cae.wisc.edu/video/ece/CSLS/CSLS9.wmv">
+          Video [WMV]</link> (Not yet available.)
+
+      </para>
+
+      <para id="overton_abstract">
+
+        ABSTRACT: Stability measures arising in systems and control are
+        typically nonsmooth, nonconvex functions. The simplest examples are
+        the abscissa and radius maps for polynomials (maximum real part, or
+        modulus, of the roots) and the analagous matrix measures, the spectral
+        abscissa and radius (maximum real part, or modulus, of the
+        eigenvalues). More robust measures include the distance to instability
+        (smallest perturbation that makes a polynomial or matrix unstable) and
+        the $\epsilon$ pseudospectral abscissa or radius of a matrix (maximum
+        real part or modulus of the $\epsilon$\-pseudospectrum). When
+        polynomials or matrices depend on parameters it is natural to consider
+        optimization of such functions. We discuss an algorithm for locally
+        optimizing such nonsmooth, nonconvex functions over parameter space
+        and illustrate its effectiveness, computing, for example, locally
+        optimal low-order controllers for challenging problems from the
+        literature.
+
+        We also give an overview of variational analysis of stabiity functions
+        in polynomial and matrix space, expanding on some of the issues
+        discussed in Lewis's talk. (Joint work with James V. Burke and Adrian
+        S. Lewis.)
+
+      </para>
+
+    </section>
+
+  </content>
+  
+</document>

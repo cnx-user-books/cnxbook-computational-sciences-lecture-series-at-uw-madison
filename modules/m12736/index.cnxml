@@ -1,0 +1,212 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>CSLS Workshop on Graphical Models</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9a556df3-f43e-4a95-8c74-26a6eeac14dc</md:uuid>
+</metadata>
+
+  <content>
+
+    <section id="overview">
+      <title>
+        Workshop Overview
+      </title>
+
+      <para id="abstract">
+
+        A graphical model, or Bayesian network, encodes probabilistic
+        relationships among variables. Techniques based on these models are
+        becoming increasingly important in data analysis applications of many
+        types. In areas such as foreign-language translation, microchip
+        manufacturing, and drug discovery, the volume of data can slow
+        progress because of the difficulty of finding causal connections or
+        dependencies. The new Bayesian methods enable these tangled
+        interconnections to be sorted out and produce useful tools for
+        handling large data sets. Google is already using these techniques to
+        find and take advantage of patterns of interconnections between Web
+        pages, and Bill Gates has been quoted as saying that expertise in
+        Bayesian networks is an essential part of Microsoft's competitive
+        advantage, particularly in such areas as speech recognition. (Bayesian
+        networks now pervade Microsoft Office.)  Recently, the MIT Technology
+        Review named Bayesian networks as one of the top ten emerging
+        technologies.
+
+      </para>
+
+      <list id="talks">
+
+        <item>
+          Go to the talk on
+          <link target-id="frey_title">
+            An Introduction to Probabilistic Graphical Models and 
+            Their Lyapunov Functions and Algorithms for Inference and 
+            Learning</link>
+          (by Prof. Brendan J. Frey)
+        </item>
+      
+        <item>
+          Go to the talk on
+          <link target-id="koetter_title">
+            Graphical Models for Linear Systems, Codes and Networks</link>
+          (by Prof. Ralf Koetter)
+        </item>
+  
+        <item>
+          Go to the talk on
+          <link target-id="jordan_title">
+            Graphical Models, Exponential Families and Variational 
+            Inference</link>
+            (by Prof. Michael I. Jordan)
+        </item>
+
+      </list>
+
+      <para id="remark">
+        Remark: This workshop was held on February 19, 2004 as part of the
+        <link document="col10277">
+          Computational Sciences Lecture Series (CSLS)</link>
+        at the University of Wisconsin-Madison.
+      </para>
+
+    </section>
+
+    <section id="frey_title">
+
+      <title>
+        An Introduction to Probabilistic Graphical Models and Their Lyapunov
+        Functions and Algorithms for Inference and Learning
+      </title>
+
+      <para id="frey_affiliation">
+        By
+        <link url="http://www.psi.toronto.edu/%7Efrey/">
+          Prof. Brendan J. Frey</link>
+          (Probabilistic and Statistical Inference Group,
+           Electrical and Computer Engineering,
+           University of Toronto,
+           Canada)
+      </para>
+
+      <para id="frey_media">
+        <link resource="frey_csls_040219.pdf">
+          Slides of talk in PDF</link>
+        |
+        <link url="mms://www.cae.wisc.edu/video/ece/CSLS/CSLS4.wmv">
+          Video [WMV]</link>
+      </para>
+
+      <para id="frey_abstract">
+
+        ABSTRACT: Many problems in science and engineering require that we
+        take into account uncertainties in the observed data and uncertainties
+        in the model that is used to analyze the data. Probability theory (in
+        particular, Bayes rule) provides a way to account for uncertainty, by
+        combining the evidence provided by the data with prior knowledge about
+        the problem. Recently, we have seen an increasing abundance of data
+        and computational power, and this has motivated researchers to develop
+        techniques for solving large-scale problems that require complex
+        chains of reasoning applied to large datasets. For example, a typical
+        problem that my group works on will have 100,000 to 1,000,000 or more
+        unobserved random variables. In such large-scale systems, the
+        structure of the probability model plays a crucial role and this
+        structure can be easily represented using a graph. In this talk, I
+        will review the definitions and properties of the main types of
+        graphical model, and the Lyapunov functions and optimization
+        algorithms that can be used to perform inference and learning in these
+        models. Throughout the talk, I will use a simple example taken from
+        the application area of computer vision, to demonstrate the concepts.
+
+      </para>
+
+    </section>
+
+    <section id="koetter_title">
+      <title>
+        Graphical Models for Linear Systems, Codes and Networks
+      </title>
+
+      <para id="koetter_affiliation">
+        By
+        <link url="http://www.comm.csl.uiuc.edu/%7Ekoetter">
+          Prof. Ralf Koetter</link>
+        (Coordinated Science Laboratory and 
+         Department of Electrical Engineering,
+         University of Illinois, Urbana-Champaign,
+         USA)
+      </para>
+
+      <para id="koetter_media">
+        <link resource="koetter_csls_040219.pdf">
+          Slides of talk in PDF</link>
+        |
+        <link url="mms://www.cae.wisc.edu/video/ece/CSLS/CSLS5.wmv">
+          Video [WMV]</link>
+      </para>
+
+      <para id="koetter_abstract">   
+
+        ABSTRACT: The use of graphical models of sytems is a well established
+        technique to characterize a represented behavior. While these models
+        are often given by nature in some cases it is possible to choose the
+        underlying graphical framework. If in addition the represented
+        behavior satisfies certain linearity requirements, surprising
+        structural properties of the underlying graphical models can be
+        derived. We give an overview over a developing structure theory for
+        linear systems in graphical models and point out numerous directions
+        for further research. Examples of applications of this theory are
+        given that cover areas as different as coding, state space models and
+        network information theory.
+
+      </para>
+
+    </section>
+
+    <section id="jordan_title">
+
+      <title>
+        Graphical Models, Exponential Families and Variational Inference
+      </title>
+
+      <para id="jordan_affiliation">
+        By
+        <link url="http://www.cs.berkeley.edu/%7Ejordan/">
+          Prof. Michael I. Jordan</link>
+        (Department of Computer Science,
+         University of California Berkeley,
+         USA)
+      </para>
+
+      <para id="jordan_media">
+        <link resource="jordan_csls_040219.pdf">
+          Slides of talk in PDF</link>
+        |
+        <link url="mms://www.cae.wisc.edu/video/ece/CSLS/CSLS6.wmv">
+          Video [WMV]</link>
+      </para>
+
+      <para id="jordan_abstract">
+
+        ABSTRACT: The formalism of probabilistic graphical models provides a
+        unifying framework for the development of large-scale multivariate
+        statistical models. Graphical models have become a focus of research
+        in many applied statistical and computational fields, including
+        bioinformatics, information theory, signal and image processing,
+        information retrieval and machine learning. Many problems that arise
+        in specific instances---including the key problems of computing
+        marginals and modes of probability distributions---are best studied in
+        the general setting. Exploiting the conjugate duality between the
+        cumulant generating funciton and the entropy for exponential families,
+        we develop general variational representations of the problems of
+        computing marginals and modes. We describe how a wide variety of known
+        computational algorithms---including mean field, sum-product and
+        cluster variational techniques---can be understand in terms of these
+        variational representations. We also present novel convex relaxations
+        based on the variational framework. We present applications to
+        problems in bioinformatics and information retrieval. [Joint work with
+        Martin Wainwright]
+
+      </para>
+
+    </section>
+
+  </content>
+  
+</document>

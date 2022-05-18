@@ -1,0 +1,210 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>CSLS Workshop on Computational Vision and Image Analysis</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e92a34af-3b32-4fa6-a051-408e45b4d2fc</md:uuid>
+</metadata>
+
+  <content>
+
+    <section id="overview">
+      <title>
+        Workshop Overview
+      </title>
+
+      <para id="abstract">
+
+        Great advances have been made in the acquisition of image data, from
+        conventional photography, CT scanning, and satellite imaging to the
+        now ubiquitous digital cameras embedded in cell phones and other
+        wireless devices. Although the semantic understanding of the shapes
+        and other objects appearing in images is effortless for human beings,
+        the corresponding problem in machine perception - namely, automatic
+        interpretation via computer programs - remains a major open challenge
+        in modern science. In fact, there are very few systems whose value
+        derives from the analysis rather than collection of image data, and
+        this "semantic gap" impedes scientific and technological advances in
+        many areas, including automated medical diagnosis, robotics,
+        industrial automation, and effective security and surveillance.
+
+        In this CSLS Workshop, three distinguished experts in the field of
+        Computational Vision and Image Analysis share their thoughts on the
+        current state of the art and future directions in the field.
+
+      </para>
+
+      <list id="talks">
+
+        <item>
+          Go to the talk on
+          <link target-id="geman_title">
+            Hierarchical Designs for Pattern Recognition</link>
+          (by Prof. Donald Geman)
+        </item>
+      
+        <item>
+          Go to the talk on
+          <link target-id="soatto_title">
+            Modeling and Inference of Dynamic Visual Processes</link>
+          (by Prof. Stefano Soatto)
+        </item>
+  
+        <item>
+          Go to the talk on
+          <link target-id="miller_title">
+            Computational Anatomy and Models for Image Analysis</link>
+            (by Prof. Michael Miller)
+        </item>
+
+      </list>
+
+      <para id="remark">
+        Remark: This workshop was held on October 30, 2003 as part of the
+        <link document="col10277">
+          Computational Sciences Lecture Series (CSLS)</link>
+        at the University of Wisconsin-Madison.
+      </para>
+
+
+    </section>
+
+
+    <section id="geman_title">
+
+      <title>
+        Hierarchical Designs for Pattern Recognition
+      </title>
+
+      <para id="geman_affiliation">
+        By
+        <link url="http://www.cis.jhu.edu/people/faculty/geman/">
+          Prof. Donald Geman</link>
+        (Dept. of Applied Mathematics and Statistics and
+         Center for Imaging Science,
+         Johns Hopkins University,
+         USA)
+      </para>
+
+      <para id="geman_media">
+        <link resource="geman_csls_031030.pdf">
+          Slides of talk [PDF]</link>
+        (Not yet available.)
+        |
+        <link url="mms://www.cae.wisc.edu/video/ece/CSLS/CSLS1.wmv">
+          Video [WMV]</link>
+        |
+        <link url="http://www.cae.wisc.edu/~vontobel/csls_video1.mpg">
+          Video [MPG]</link>
+      </para>
+
+      <para id="geman_abstract">
+
+        ABSTRACT: It is unlikely that complex problems in machine perception,
+        such as scene interpretation, will yield directly to improved methods
+        of statistical learning. Some organizational framework is needed to
+        confront the small amount of data relative to the large number of
+        possible explanations, and to make sure that intensive computation is
+        restricted to genuinely ambiguous regions. As an example, I will
+        present a "twenty questions" approach to pattern recognition. The
+        object of analysis is the computational process itself rather than
+        probability distributions (Bayesian inference) or decision boundaries
+        (statistical learning). Under mild assumptions, optimal strategies
+        exhibit a steady progression from broad scope coupled with low power
+        to high power coupled with dedication to specific
+        explanations. Several theoretical results will be mentioned (joint
+        work with Gilles Blanchard) as well as experiments in object detection
+        (joint work with Yali Amit and Francois Fleuret).
+
+      </para>
+
+    </section>
+
+    <section id="soatto_title">
+      <title>
+        Modeling and Inference of Dynamic Visual Processes
+      </title>
+
+      <para id="soatto_affiliation">
+        By
+        <link url="http://www.cs.ucla.edu/%7Esoatto">
+          Prof. Stefano Soatto</link>
+        (Department of Computer Science,
+         University of California Los Angeles,
+         USA)
+      </para>
+
+      <para id="soatto_media">
+        <link resource="soatto_csls_031030.pdf">
+          Slides of talk [PDF]</link>
+        (Not yet available.)
+        |
+        <link url="mms://www.cae.wisc.edu/video/ece/CSLS/CSLS2.wmv">
+          Video [WMV]</link>
+      </para>
+
+      <para id="soatto_abstract">      
+
+        ABSTRACT: "We see in order to move, and we move in order to see." In
+        this expository talk, I will explore the role of vision as a sensor
+        for interaction with physical space. Since the complexity of the
+        physical world is far superior to that of its measured images,
+        inferring a generic representation of the scene is an intrinsically
+        ill-posed problem. However, the task becomes well-posed within the
+        context of a specific control task. I will display recent results in
+        the inference of dynamical models of visual scenes for the purpose of
+        motion control, shape visualization, rendering, and classification.
+
+      </para>
+
+    </section>
+
+    <section id="miller_title">
+
+      <title>
+        Computational Anatomy and Models for Image Analysis
+      </title>
+
+      <para id="miller_affiliation">
+        By
+        <link url="http://www.cis.jhu.edu/people/faculty/mim/">
+          Prof. Michael Miller</link>
+        (Director of the Center for Imaging Science,
+         The Seder Professor of Biomedical Engineering,
+         Professor of Electrical and Computer Engineering,
+         Johns Hopkins University,
+         USA)
+      </para>
+
+      <para id="miller_media">
+        <link resource="miller_csls_031030.pdf">
+          Slides of talk [PDF]</link>
+        (Not yet available.)
+        |
+        <link url="mms://www.cae.wisc.edu/video/ece/CSLS/CSLS3.wmv">
+          Video [WMV]</link>
+      </para>
+
+      <para id="miller_abstract">
+
+        ABSTRACT: University Recent years have seen rapid advances in the
+        mathematical specification of models for image analysis of human
+        anatomy. As first described in "Computational Anatomy: An Emerging
+        Discipline" (Grenander and Miller, Quarterly of Applied Mathematics,
+        Vol. 56, 617-694, 1998), human anatomy is modelled as a deformable
+        template, an orbit under the group action of infinite dimensional
+        diffeomorphisms. In this talk, we will describe recent advances in CA,
+        specifying a metric on the ensemble of images, and examine distances
+        between elements of the orbits, "Group Actions, Homeomorphisms, and
+        Matching: A General Framework" (Miller and Younes,
+        Int. J. Comp. Vision Vol. 41, 61-84, 2001), "On the Metrics of
+        Euler-Lagrange Equations of Computational Anatomy
+        (Annu. Rev. Biomed. Eng., Vol. 4, 375-405, 2002). Numerous results
+        will be shown comparing shapes through this metric formulation of the
+        deformable template, including results from disease testing on the
+        hippocampus, and cortical structural and functional mapping.
+
+      </para>
+
+    </section>
+
+  </content>
+  
+</document>

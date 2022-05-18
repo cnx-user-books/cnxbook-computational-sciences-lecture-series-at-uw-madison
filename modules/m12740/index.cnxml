@@ -1,0 +1,69 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>CSLS Workshops Overview</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>f2059550-acad-4471-8184-99585dcc701d</md:uuid>
+</metadata>
+
+  <content>
+
+    <section id="goal">
+      <title>
+        Goal of the CSLS Workshops
+      </title>
+
+      <para id="abstract">
+  
+        The goal of the Computational Sciences Lecture Series (CSLS) is to
+        bring together researchers from mathematics (pure and applied),
+        computer science, physics, and engineering to promote
+        cross-fertilization between these fields and to establish
+        computational science as an active research discipline at
+        UW-Madison. The CSLS will consist of several half-day meetings during
+        each year, each meeting consisting of three lectures by distinguished
+        researchers, grouped around a common theme.
+  
+      </para>
+
+    </section>
+
+
+    <section id="previous_workshops_title">
+      <title>
+        Previous CSLS Workshops
+      </title>
+
+      <list id="previous_workshops_list">
+  
+        <item> <link document="m12735">
+                 CSLS Workshop on Computational Vision and 
+                 Image Analysis</link>
+               (October 30, 2003)
+        </item>
+
+        <item> <link document="m12736">
+                 CSLS Workshop on Graphical Models</link>
+               (February 19, 2004)
+        </item>
+
+        <item> <link document="m12737">
+                 CSLS Workshop on Optimization of Eigenvalues</link>
+               (October 7, 2004)
+        </item>
+
+        <item> <link document="m12738">
+                 CSLS Workshop on Quantum Computation</link>
+               (February 10, 2005)
+        </item>
+
+        <item> <link document="m12782">
+                 CSLS Workshop on Wireless Communication</link>
+               (April 18, 2005)
+        </item>
+
+
+      </list>
+  
+    </section>
+   
+  </content>
+  
+</document>

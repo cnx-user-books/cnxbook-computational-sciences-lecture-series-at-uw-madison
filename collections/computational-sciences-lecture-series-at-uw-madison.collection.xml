@@ -1,0 +1,48 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10277</md:content-id>
+    <md:title>Computational Sciences Lecture Series at UW-Madison</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>9cf3cd7a-f225-464f-8e32-4da4ab296873</md:uuid>
+<md:slug>computational-sciences-lecture-series-at-uw-madison</md:slug>
+</metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>CSLS Workshops Overview</md:title>
+      <col:content>
+        <col:module document="m12740"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Workshop 1 (October 30, 2003)</md:title>
+      <col:content>
+        <col:module document="m12735"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Workshop 2 (February 19, 2004)</md:title>
+      <col:content>
+        <col:module document="m12736"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Workshop 3 (October 7, 2004)</md:title>
+      <col:content>
+        <col:module document="m12737"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Workshop 4 (February 10, 2005)</md:title>
+      <col:content>
+        <col:module document="m12738"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Workshop 5 (April 18, 2005)</md:title>
+      <col:content>
+        <col:module document="m12782"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>

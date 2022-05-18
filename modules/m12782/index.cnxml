@@ -1,0 +1,215 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>CSLS Workshop on Quantum Computation</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>a58de296-d362-42f4-8d8d-87104c9668c5</md:uuid>
+</metadata>
+
+  <content>
+
+    <section id="overview">
+      <title>
+        Workshop Overview
+      </title>
+
+      <para id="abstract">
+
+        According to the International Association for the Wireless Industry
+        CTIA, there were 180 million mobile phone subscribers in the U.S. at
+        the end of 2004. Worldwide, there will soon be 2 billion
+        subscribers. From these figures it is not difficult to see that
+        wireless communication, a technology that is based on the interplay of
+        many sciences, is revolutionizing the way we communicate. In this
+        workshop, three experts in wireless communication will discuss
+        mathematical, technical, algorithmic, and protocol issues that made
+        wireless communication possible and that will enable future wireless
+        systems with more throughput, wider coverage, higher reliability, and
+        new applications.
+
+      </para>
+
+      <list id="talks">
+
+        <item>
+          Go to the talk on
+          <link target-id="viswanath_title">
+             Approximately Universal Codes over Slow Fading Wireless Channels
+             </link>
+          (by Prof. Pramod Viswanath)
+        </item>
+      
+        <item>
+          Go to the talk on
+          <link target-id="calderbank_title">
+            Quantum Computing and Cellular Phones</link>
+          (by Dr. Rob Calderbank)
+        </item>
+  
+        <item>
+          Go to the talk on
+          <link target-id="vanderschaar_title">
+            Proactive Design for Multimedia Communication Systems 
+            with Resource and Information Exchanges</link>
+            (by Prof. Mihaela van der Schaar)
+        </item>
+
+      </list>
+
+      <para id="remark">
+        Remark: This workshop was held on April 18, 2005 as part of the
+        <link document="col10277">
+          Computational Sciences Lecture Series (CSLS)</link>
+        at the University of Wisconsin-Madison.
+      </para>
+
+    </section>
+
+    <section id="viswanath_title">
+
+      <title>
+        Approximately Universal Codes over Slow Fading Wireless Channels
+      </title>
+
+      <para id="viswanath_affiliation">
+        By
+        <link url="http://www.ifp.uiuc.edu/~pramodv/">
+          Prof. Pramod Viswanath</link>
+          (University of Illinois at Urbana-Champaign,
+           USA)
+      </para>
+
+      <para id="viswanath_media">
+
+        <link resource="csls13_viswanath_slides.pdf">
+          Slides of talk [PDF]</link>
+        |
+        <link url="http://mediasite.cae.wisc.edu/MediasiteLive30/LiveViewer/FrontEnd/Front.aspx?cid=1456656a-3e71-44af-9d28-6544bb4fd6a8">
+          Video [WMV]</link>
+
+      </para>
+
+      <para id="viswanath_abstract">
+
+        ABSTRACT: The tradeoff between data rate and reliability of reception
+        is a fundamental issue in theory and practice of communication. In
+        this talk, we try to understand the nature of this tradeoff in a slow
+        fading wireless channel. In particular, we will precisely characterize
+        codes that optimally tradeoff these two quantities for every
+        statistical characterization of the wireless channel. This
+        characterization is then used to construct new coding schemes as well
+        as to show optimality of several schemes proposed in the space-time
+        coding literature.
+
+      </para>
+
+    </section>
+
+    <section id="calderbank_title">
+
+      <title>
+        Quantum Computing and Cellular Phones
+      </title>
+
+      <para id="calderbank_affiliation">
+        <link url="http://www.ee.princeton.edu/people/Calderbank.php">
+          Prof. Rob Calderbank</link>
+          (Princeton University,
+         USA)
+      </para>
+
+      <para id="calderbank_media">
+
+        <link resource="csls14_calderbank_slides.pdf">
+          Slides of talk [PDF]</link>
+        |
+        <link url="http://mediasite.cae.wisc.edu/MediasiteLive30/LiveViewer/FrontEnd/Front.aspx?cid=1456656a-3e71-44af-9d28-6544bb4fd6a8">
+          Video [WMV]</link>
+        |
+        <link url="http://www.archive.org/download/QuantumComputingandCellularPhones/csls14_calderbank.mpg">
+          Video [MPEG1]</link>
+        |
+        <link url="http://www.archive.org/details/QuantumComputingandCellularPhones">
+          Video [Other MPEG formats]</link>
+
+      </para>
+
+      <para id="calderbank_abstract">   
+
+        ABSTRACT: Multiple antennas are transforming the rate, reliability and
+        reach of wireless systems. Quantum computers are calling into question
+        the security of cryptosystems where security rests on the presumed
+        intractability of factoring. The speaker, Dr. Robert Calderbank, an
+        AT&amp;T Fellow and co-inventor of space-time codes, will use nineteenth
+        century mathematics to connect these two breakthrough technologies.
+        
+      </para>
+
+    </section>
+
+    <section id="vanderschaar_title">
+
+      <title>
+        Proactive Design for Multimedia Communication Systems
+        with Resource and Information Exchanges
+      </title>
+
+      <para id="vanderschaar_affiliation">
+        By
+        <link url="http://www.ece.ucdavis.edu/~mihaela/">
+          Prof. Mihaela van der Schaar</link>
+        (University of California at Davis,
+         USA)
+      </para>
+
+      <para id="vanderschaar_media">
+
+        <link resource="csls15_vanderschaar_slides.pdf">
+          Slides of talk [PDF]</link>
+        |
+        <link url="http://mediasite.cae.wisc.edu/MediasiteLive30/LiveViewer/FrontEnd/Front.aspx?cid=1456656a-3e71-44af-9d28-6544bb4fd6a8">
+          Video [WMV]
+        </link>
+
+      </para>
+
+      <para id="vanderschaar_abstract_part1">
+
+        ABSTRACT: Due to their flexible and low cost infrastructure, the
+        Internet and wireless networks are poised to enable a variety of
+        multimedia applications, such as videoconferencing, emergency
+        services, surveillance, telemedicine, remote teaching and training,
+        augmented reality, and distributed gaming. However, these networks
+        provide dynamically varying resources with only limited support for
+        the Quality of Service required by the delay-sensitive,
+        bandwidth-intense and loss-tolerant multimedia applications . This
+        variability of resources does not significantly impact
+        delay-insensitive applications (e.g., file transfers), but has
+        considerable consequences for multimedia applications and often leads
+        to unsatisfactory user experience.
+
+      </para>
+
+      <para id="vanderschaar_abstract_part2">
+
+        To address these challenges, my research is focused on investigating
+        the theory, algorithm design, implementation, and performance analysis
+        of realistic multimedia systems, in order to gain new insights on what
+        basic principles underlie efficient designs, and use these insights to
+        advance the theory and tool-set for building optimized multimedia
+        compression and transmission algorithms, theories and applications.
+
+      </para>
+
+      <para id="vanderschaar_abstract_part3">
+
+        In this talk, I will discuss a new proactive algorithm and system
+        design that fundamentally changes the non-collaborative way in which
+        competing wireless stations currently interact, by allowing them to
+        exchange information and resources to improve the performance of
+        multimedia applications.
+
+      </para>
+
+    </section>
+
+  </content>
+  
+</document>
