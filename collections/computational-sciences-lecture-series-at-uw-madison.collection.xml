@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Pascal Vontobel">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col10277</md:content-id>
     <md:title>Computational Sciences Lecture Series at UW-Madison</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
     <md:uuid>9cf3cd7a-f225-464f-8e32-4da4ab296873</md:uuid>
-<md:slug>computational-sciences-lecture-series-at-uw-madison</md:slug>
-</metadata>
+    <md:slug>computational-sciences-lecture-series-at-uw-madison</md:slug>
+  </metadata>
   <col:content>
     <col:subcollection>
       <md:title>CSLS Workshops Overview</md:title>
